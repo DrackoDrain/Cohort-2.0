@@ -8,6 +8,10 @@ function dateMethods(){
     console.log("date", currentDate.getDate());
     console.log("Month", currentDate.getMonth()+1) // Months are zero indexed
     console.log("Year", currentDate.getFullYear());
+    console.log("Hours", currentDate.getHours());
+    console.log("Minutes",currentDate.getMinutes());
+    console.log("Seconds", currentDate.getSeconds());
+    
   
     currentDate.setFullYear(2022);
     console.log("After setFullYear", currentDate);
